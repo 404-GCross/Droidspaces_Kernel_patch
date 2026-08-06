@@ -47,6 +47,7 @@ CONFIG_DEVTMPFS=y
 
 # 用户命名空间(不是必备，但是docker,KDE桌面必须要开)
 CONFIG_USER_NS=y
+# 非常推荐打上CVE-UesrNS目录下的修复补丁，防止提权漏洞
 ```
 
 ## Droidspaces < v5.9.5 所要配置
